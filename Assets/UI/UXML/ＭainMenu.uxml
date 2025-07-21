@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/MainMenu.uss?fileID=7433441132597879392&amp;guid=ceaa0e685d96a3b4eb04da5ebc6edd84&amp;type=3#MainMenu" />\
+    <engine:Template src="project://database/Assets/UI/UXML/ButtonDefault.uxml" name="default-btn"/>
+    <engine:VisualElement class="mm-page">
+        <engine:VisualElement class="mm-r-aside">
+            <engine:Button name="StartButton" text="開始遊戲" class="mm-btn" />
+            <engine:Button name="QuitButton" text="退出遊戲" class="mm-btn" />
+            <!-- <engine:Instance template="default-btn" name="btn-default" /> -->
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,10 @@
+﻿.box-page {
+    width: 100%;
+    height: 100%;
+    background-color: #0E1220;
+}
+
+.box-r-aside {
+    width: 25%;
+    background-color: #0E1220;
+}

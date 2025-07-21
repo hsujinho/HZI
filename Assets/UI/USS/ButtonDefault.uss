@@ -1,0 +1,13 @@
+﻿.btn-default {
+    background-color: #151B29;
+    color: #F0EBE2;
+    border-width: 0;
+}
+
+.btn-default:hover {
+    color: #56BFEB;
+}
+
+.btn-default:active {
+    color: #56BFEB;
+}

@@ -1,0 +1,60 @@
+:root {
+    --mm-color-white: #FEF9FD;
+    --mm-color-bg: #100B05;
+    --mm-color-main: #5A4C49;
+    --mm-color-mainlight: #978989;
+    --mm-color-sub: #5E5C5F;
+    --mm-color-accent: #E0C085;
+}
+
+.mm-page {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Resources/mask.png");
+}
+
+.mm-r-aside {
+    padding-top: 100px;
+    width: 25%;
+    /*background-color: var(--mm-color-bg);*/
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*.mm-btn {*/
+/*    background-color: var(--mm-color-bg);*/
+/*    color: #F0EBE2;*/
+/*    border-width: 0;*/
+/*    width: 200px;*/
+/*    height: 100px;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+.mm-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*background-color: var(--mm-color-bg);*/
+    color: var(--mm-color-white);
+    background-color: rgba(16, 11, 5, 0);
+    
+    width: 200px;
+    height: 100px;
+    
+    border-width: 0;
+}
+
+.mm-btn:hover {
+    transition: background-color 0.3s ease, color 0.3s ease, margin-left 0.3s ease, opacity 0.3s ease;
+    color: var(--mm-color-white);
+    background-color: rgba(16, 11, 5, 0);
+    margin-left: 100px;
+}
+
+.mm-btn:active {
+    color: #56BFEB;
+}
